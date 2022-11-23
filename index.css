@@ -12,6 +12,7 @@ body {
     margin: auto;
     border: 1px solid red;
     border-radius: 5%;
+    margin-top: 30px;
 }
 
 .home-title {
