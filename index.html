@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div>
+                <h3 class="home-title">HOME</h3>
+            <div class="home-points">
+                <span id = "homePoints">0</span>
+            </div>
+            <div class = "add-buttons">
+            <button onclick="add1Homepoint()">+1</button>
+            <button onclick="add2Homepoints()">+2</button>
+            <button onclick="add3Homepoints()">+3</button>
+            </div>
+            <h3 class ="total-points" id = "home-points">Total: 0</h3>
+
+            </div>
+            
+            <div>
+                <h3 class="home-title">GUEST</h3>
+            <div class ="home-points">
+                <span id = "guestPoints">0</span>
+            </div>
+            <div class = "add-buttons">
+            <button onclick="add1Guestpoint()">+1</button>
+            <button onclick="add2Guestpoints()">+2</button>
+            <button onclick="add3Guestpoints()">+3</button>
+            </div>
+            
+            <h3 class ="total-points" id = "guest-points" onclick="totalPoints()">Total: 0</h3>
+
+            </div>
+        </div>
+        
+        <button id = "winner-button" onclick="winnerPoints()">WINNER!</button>
+
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
